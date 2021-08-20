@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/stateReport_item"
+        android:title="State Wise Report"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/credit"
+        android:title="Credits"
+        android:visible="true" />
+</menu>

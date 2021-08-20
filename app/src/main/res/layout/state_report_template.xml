@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/stateNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/activeCasesView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/newInfectedView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/recoveredView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/newRecoveredView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/deceasedView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/newDeceasedView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/totalInfectedView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="30dp" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Covid Tracker</string>
+    <string name="copyright">
+        Data of this report is updated every hour.
+    </string>
+    <string name="view_button_text">View State wise report</string>
+    <string name="credit_desc">
+        The credit for all the data available on the Covid Tracker goes to Apify. \n\n
+        Due to their API https://apify.com/covid-19, it is being possible to get the data in such an
+        easy way and every developer must visit it for any sort of API they are in search of. \n\n\n
+
+        Some of the important features provided by Apify are \n\n
+        * Providing APIs \n
+        * Web Scrapping \n
+        * Web Automation \n
+        * Web Integration \n
+    </string>
+</resources>
